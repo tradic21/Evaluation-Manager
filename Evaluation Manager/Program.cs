@@ -15,7 +15,7 @@ namespace Evaluation_Manager
         [STAThread]
         static void Main()
         {
-            DB.SetConfiguration("PI2023_IPS23_tradic21_DB", "tradic21", "wLJ!1*sP");
+            
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

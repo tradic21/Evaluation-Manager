@@ -1,4 +1,5 @@
-﻿using Evaluation_Manager.Models;
+﻿using DBLayer;
+using Evaluation_Manager.Models;
 using Evaluation_Manager.Repositories;
 using System;
 using System.Collections.Generic;
@@ -55,7 +56,7 @@ namespace Evaluation_Manager
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-
+            DB.SetConfiguration("PI2023_IPS23_tradic21_DB", "tradic21", "wLJ!1*sP");
         }
     }
 }

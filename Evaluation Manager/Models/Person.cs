@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Evaluation_Manager.Model
+namespace Evaluation_Manager.Models
 {
     public abstract class Person
     {
